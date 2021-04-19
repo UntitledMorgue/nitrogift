@@ -2,3 +2,12 @@
     border-radius:9px;
     height:239px;
 }
+
+
+.h1 {
+    color:white;
+}
+
+.h1:hover {
+color:black;
+}
