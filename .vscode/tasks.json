@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "Label": "Open in Chrome",     
+            "isBuildCommand": true,
+            "command": "Chrome",
+            "windows": {
+                "command": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
+            },
+            "args": [
+                "http://localhost:5000/${relativeFile}"
+            ]
+        },
+        {
+            "Label": "Open in Firefox",     
+            "isBuildCommand": true,
+            "command": "Firefox",
+            "windows": {
+                "command": "C:/Program Files (x86)/Mozilla Firefox/firefox.exe"                
+            },
+            "args": [
+                "http://localhost:5000/${relativeFile}"
+            ]
+        }
+    ]
+}
